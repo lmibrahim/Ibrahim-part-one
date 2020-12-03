@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1{
+    margin: .6em;
+}
+
+h2 {
+    margin:1em;
+}
+
+p {
+    margin:1.56em;
+}
+
+.navi {
+    padding: 0px;
+}
+
+.code, .learningtocode {
+    color:#ff5c0f
+}
+.LearnTo, .doyouthinkabout {
+    color: #20a8b4;
+}
+.header {
+    background-color: #F2F2F2;
+    padding-top: .1em;  
+    padding-bottom: 1em;
+}
+
+
+ul {
+    line-height: 1.6em;
+    list-style: none;
+    color:black;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+.contactButton {
+    background-color: #20a8b4;
+    color:white;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%
+}
+
+.contactButton:hover {
+    background-color: #ff5c0f;
+}
+
+
+.learnbutton {
+    background-color: #20a8b4;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+.learnbutton:hover {
+    background-color: #ff5c0f;
+}
+
+
+@media only screen and (min-width:768px) {
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        float: left;
+        padding: 1em;
+        display: inline;
+    }
+
+    section {
+        margin-top: 13.5em;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .learnbutton {
+        background-color: #20a8b4;
+        color: white;
+        padding: 12px;
+        border-radius: 10px;
+        border: none;
+        width: auto;
+        margin-left: 2em;
+       
+    }
+
+    .contactbutton {
+        background-color: #20a8b4;
+        color: white;
+        padding: 12px;
+        border-radius: 10px;
+        border: none;
+        width: auto;
+    }
+    
+    .image {
+    
+        position: fixed;
+        bottom: 3em;
+        margin-left: 70em;
+        width: 630px;
+        
+    }
+
+}
